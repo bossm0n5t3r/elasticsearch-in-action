@@ -2,9 +2,18 @@
 
 ## Getting Started
 
+### Official
+
+- https://github.com/elastic/start-local
+
 ```shell
-$ docker compose up setup # 초기 설정 실행
-$ docker compose up -d # 전체 스택 실행
+$ curl -fsSL https://elastic.co/start-local | sh
+```
+
+### Unofficial
+
+```shell
+$ docker compose up -d
 ```
 
 ## Links
